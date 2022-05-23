@@ -2,7 +2,7 @@
 <section>
     <h2>Your Posts</h2>
     <ol>
-        {{#each postts as |post|}}
+        {{#each posts as |post|}}
         <ul>
             <article class="post">
                 <div class="title">
@@ -14,8 +14,10 @@
             </article>
             <a href="/dashboard/edit/{{post_id}}" class="edit-link">Edit post</a>
         </ul>
+        {{/each}}
     </ol>
 </section>
+
 {{/if}}
 
 <div>

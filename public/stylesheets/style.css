@@ -1,7 +1,7 @@
 
 root {
-    --primary-color: #6F1E51;
-    --primary-hover: #B53471;
+    --primary-color: lawngreen;
+    --primary-hover: lightcoral;
 }
 
 * {
@@ -45,20 +45,20 @@ a:hover {
 }
 
 .create-btn {
-    color:white;
+    color: lightcoral;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .create-btn:hover {
-    color:white;
+    color: lightcoral;
 }
 
 button {
     background-color: var(--primary-color);
     border: 0;
     padding: 1%;
-    color: white;
+    color: lightcoral;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
@@ -78,12 +78,12 @@ button:hover{
 textarea, input {
     padding: .5%;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px black;
 }
 
 textarea:focus, input:focus {
     outline: none;
-    border: 1px solid var(--primary-hover);
+    border: 1px black;
 }
 
 textarea {
@@ -109,7 +109,7 @@ form label {
 }
 
 header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px lawngreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,7 +140,7 @@ main {
 
 .btn-no-style:hover {
     background: none;
-    color: var(--primary-hover);
+    color: lightcyan;
 }
 
 .delete-post-btn {
@@ -177,7 +177,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: lightpink;
 }
 
 .comment .meta {
@@ -195,7 +195,7 @@ main {
 }
 
 footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #6F1E51;
     display: flex;
     justify-content: center;
     padding: 1%;
